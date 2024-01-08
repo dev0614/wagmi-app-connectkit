@@ -7,4 +7,9 @@ export const config = createConfig(
     appName: 'My wagmi + ConnectKit App',
     walletConnectProjectId: 'CSXKL-hL24qiBwN-yY7pGu0s-STVyzfa',
   })
+  getDefaultConfig1({
+    autoConnect: true,
+    appName: 'My wagmi + ConnectKit App',
+    walletConnectProjectId: 'CSXKL-hL24qiBwN-yY7pGu0s-STVyzfa',
+  })
 )
