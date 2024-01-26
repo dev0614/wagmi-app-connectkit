@@ -35,6 +35,7 @@ export function SendTransaction() {
 
       {isLoading && <div>Check wallet...</div>}
       {isPending && <div>Transaction pending...</div>}
+      {isPending && <div>Transaction pending...</div>}
       {isSuccess && (
         <>
           <div>Transaction Hash: {data?.hash}</div>

@@ -10,6 +10,8 @@ export function Account() {
     <div>
       {ensName ?? address}
       {ensName ? ` (${address})` : null}
+      {ensName ?? address}
+      {ensName ? ` (${address})` : null}
     </div>
   )
 }
