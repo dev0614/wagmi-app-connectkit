@@ -13,6 +13,10 @@ export function NetworkSwitcher() {
         Connected to {chain?.name ?? chain?.id}
         {chain?.unsupported && ' (unsupported)'}
       </div>
+      <div>
+        Connected to {chain?.name ?? chain?.id}
+        {chain?.unsupported && ' (unsupported)'}
+      </div>
       <br />
       {switchNetwork && (
         <div>
